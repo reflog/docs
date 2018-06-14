@@ -76,7 +76,7 @@ ${
 ### Deployment Inactivity
 
 Deployments stay around forever if you do not remove them using \`now remove\`, like shown
-on [this page](http://localhost:3000/docs/features/now-cli#cloud-commands).
+on [this page](https://zeit.co/docs/features/now-cli#cloud-commands).
 
 Static deployments are **never** put to sleep and are always **quickly accessible**.
 `)
