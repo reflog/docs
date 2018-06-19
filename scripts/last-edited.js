@@ -9,7 +9,8 @@ const writeFile = promisify(fs.writeFile)
 const globPromise = promisify(glob)
 
 async function getFileStats() {
-  const files = await globPromise(resolve('./pages/docs/**/*.js'))
+  const files = await globPromise(resolve('./pages/docs/**/*.{js,md}'))
+
   const stats = await Promise.all(
     files
       .map(file => file.split('/pages/'))

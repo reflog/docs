@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "5.12.0",
+  "version": "5.13.0",
   "private": true,
   "scripts": {
     "dev": "micro server.js",
@@ -27,7 +27,7 @@
     "markdown-in-js": "1.1.4",
     "micro": "9.3.1",
     "mitt": "1.1.2",
-    "next": "6.0.3",
+    "next": "6.0.4-canary.8",
     "nprogress": "0.2.0",
     "prop-types": "15.5.8",
     "react": "16.3.2",
@@ -35,6 +35,10 @@
     "scroll-into-view-if-needed": "1.1.0"
   },
   "devDependencies": {
+    "@mdx-js/loader": "0.11.0",
+    "@mdx-js/mdx": "0.10.1",
+    "@mdx-js/tag": "0.11.0",
+    "@zeit/next-mdx": "1.1.0",
     "babel-eslint": "8.2.3",
     "eslint": "4.2.0",
     "eslint-plugin-import-b5a962": "2.3.0",

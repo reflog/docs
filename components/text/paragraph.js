@@ -3,15 +3,14 @@ import PropTypes from 'prop-types'
 export const P = ({ children }) => (
   <p>
     {children}
-    <style jsx>
-      {`
-        p {
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 24px;
-        }
-      `}
-    </style>
+    <style jsx>{`
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+    `}</style>
   </p>
 )
 
@@ -71,7 +70,8 @@ export const Quote = ({ children }, { darkBg } = {}) => (
         border-left-color: #fff;
       }
 
-      blockquote :global(div) {
+      blockquote :global(div),
+      blockquote :global(p) {
         margin: 0;
       }
     `}</style>
