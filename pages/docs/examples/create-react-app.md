@@ -15,7 +15,7 @@ export const meta = {
 
 [Create React App](https://github.com/facebookincubator/create-react-app) is a boilerplate tool used to create Single Page Applications with React.js without build configuration. Facebook created CRA and made it the official way to start a new React application.
 
-In this page we're going to focus on how to deploy a Single Page Application made with Create React App to ${<Now color="#000"/>}. If you want to learn how to use this boilerplate tool we recommend you to read their [repository's README](https://github.com/facebookincubator/create-react-app/blob/master/README.md).
+In this page we're going to focus on how to deploy a Single Page Application made with Create React App to <Now color="#000"/>. If you want to learn how to use this boilerplate tool we recommend you to read their [repository's README](https://github.com/facebookincubator/create-react-app/blob/master/README.md).
 
 ## Setup
 
@@ -53,7 +53,7 @@ Once we did that we can deploy our application with the following command:
 
 <TerminalInput>npm run build && now</TerminalInput>
 
-Once the application is built and ${<Now color="#000" />} has finished uploading the files, you'll see a URL that points to your freshly created Single Page Application.
+Once the application is built and <Now color="#000" /> has finished uploading the files, you'll see a URL that points to your freshly created Single Page Application.
 
 But in the case of a real application (not used for testing purposes), you would now have to [assign an alias](/docs/features/aliases) to it.
 
