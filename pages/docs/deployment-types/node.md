@@ -77,9 +77,11 @@ Other than selecting the version of Node.js using the engines property,
 }
 ```
 
-there are no other ways to interfere with the image of your deployment. This means that if you want to use a custom runtime, a special version of Linux or some other form of low-level customization, you should consider a <InternalLink href="/docs/deployment-types/docker">Docker deployment</InternalLink>.
+There are no other ways to interfere with the image of your deployment. This means that if you want to use a custom runtime, a special version of Linux or some other form of low-level customization, you should consider a <InternalLink href="/docs/deployment-types/docker">Docker deployment</InternalLink>.
 
 It will allow you to specify all of these things inside a `Dockerfile`. This results in much wider customization options.
+
+> **Note**: we has support for all the [maintained versions of Node.js](https://github.com/nodejs/Release#release-schedule) and default to current LTS; this means the minimum supported version is v6 and the current default is v8.
 
 ## Deployment Inactivity
 
