@@ -358,4 +358,20 @@ Due the [immutable nature of deployments](/docs/other/faq#how-do-i-update-my-dep
 
 You can have a `now.staging.json` file and a `now.json` for production and use the parameter `--local-config=now.staging.json` while deploying (or aliasing) to customize the configuration file to use.
 
+## Does Now for GitHub Support Deploying Monorepos?
+
+We do not currently support deploying monorepos with Now for GitHub.
+
+Support for it is coming.
+
+## Does Now for GitHub Support GitLab or BitBucket?
+
+We do not currently support GitLab and BitBucket with Now for GitHub.
+
+Support for it is coming.
+
+## Is It Possible to Specify the Path to now.json in Now for GitHub?
+
+Right now is not possible, the GitHub app requires you to have a `now.json` at the root of the repository in order to detect the repo and deploy it.
+
 export default withDoc({...meta})(({children}) => <>{children}</>)
