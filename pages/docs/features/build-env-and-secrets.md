@@ -10,7 +10,7 @@ export const meta = {
   editUrl: 'pages/docs/features/build-env-and-secrets.md'
 }
 
-> If you're looking for information covering Environment Variables and Secrets to use within your app, head over to our guide for [Runtime Env and Secrets](/docs/features/env-and-secrets)
+> If you're looking for information covering Environment Variables and Secrets to use within your app, head over to our guide for [Run-Time Env and Secrets](/docs/features/env-and-secrets)
 
 There are multiple stages to deploying your app, for example; installing dependencies. For Now to recognise that your app needs a build step, your app will need a `Dockerfile`.
 
