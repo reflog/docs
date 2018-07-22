@@ -176,6 +176,20 @@ RUN yarn build && mv build /public
 ```
 <Caption>An example `Dockerfile` for building a `create-react-app` project to the `/public` directory</Caption>
 
+If you are using routing in your SPA don't forget to add a rewriting rule to point to your `index.html`. This can be done by editing `now.json` and adding the following block
+
+```
+"static": {
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+```
+<Caption>An example of a rewrite rule to support SPA routing</Caption>
+
 ### Your own Continuous Integration
 Static builds don't just mean that you have to export your app statically, it also presents a fantastic opportunity to run scripts that test your app too.
 
