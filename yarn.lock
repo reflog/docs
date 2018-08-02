@@ -660,11 +660,11 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@mdx-js/loader@0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@mdx-js/loader/-/loader-0.11.0.tgz#ad1197e2fcc67f31a91a4aa92c181b01b94b6605"
+"@mdx-js/loader@0.15.0-0":
+  version "0.15.0-0"
+  resolved "https://registry.npmjs.org/@mdx-js/loader/-/loader-0.15.0-0.tgz#6ef7db6040072e0480cdccfca4e92337f7df60d3"
   dependencies:
-    "@mdx-js/tag" "^0.11.0"
+    "@mdx-js/tag" "^0.14.0"
 
 "@mdx-js/loader@^0.7.0":
   version "0.7.4"
@@ -672,27 +672,22 @@
   dependencies:
     "@mdx-js/tag" "^0.7.2"
 
-"@mdx-js/mdx@0.10.1":
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-0.10.1.tgz#5c24679cf90fc80e16a8164de4fc9274a5657d78"
+"@mdx-js/mdx@0.15.0-0":
+  version "0.15.0-0"
+  resolved "https://registry.npmjs.org/@mdx-js/mdx/-/mdx-0.15.0-0.tgz#ec50dd43a8da98a0b34f4193ade396f866453a16"
   dependencies:
-    "@mdx-js/mdxast" "^0.10.0"
     mdast-util-to-hast "^3.0.0"
     remark-parse "^5.0.0"
     remark-squeeze-paragraphs "^3.0.1"
     unified "^6.1.6"
     unist-util-visit "^1.3.0"
 
-"@mdx-js/mdxast@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdxast/-/mdxast-0.10.0.tgz#5d8dfdf96290151487dc07fb42031f3f47b8671e"
+"@mdx-js/tag@0.14.1", "@mdx-js/tag@^0.14.0":
+  version "0.14.1"
+  resolved "https://registry.npmjs.org/@mdx-js/tag/-/tag-0.14.1.tgz#f2ac14bcd1b71aef92d2f056094786905015dfdf"
   dependencies:
-    unist-util-visit "^1.3.0"
-
-"@mdx-js/tag@0.11.0", "@mdx-js/tag@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@mdx-js/tag/-/tag-0.11.0.tgz#d4e3f4e384e862302908e10c23dc1959da5ca91b"
-  dependencies:
+    create-react-context "^0.2.2"
+    hoist-non-react-statics "^2.5.5"
     prop-types "^15.6.1"
 
 "@mdx-js/tag@^0.7.2":
@@ -1582,6 +1577,13 @@ create-react-class@^15.5.1:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
+create-react-context@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.npmjs.org/create-react-context/-/create-react-context-0.2.2.tgz#9836542f9aaa22868cd7d4a6f82667df38019dca"
+  dependencies:
+    fbjs "^0.8.0"
+    gud "^1.0.0"
+
 cross-env@5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.0.1.tgz#ff4e72ea43b47da2486b43a7f2043b2609e44913"
@@ -2198,7 +2200,7 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
-fbjs@^0.8.16, fbjs@^0.8.9:
+fbjs@^0.8.0, fbjs@^0.8.16, fbjs@^0.8.9:
   version "0.8.17"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
   dependencies:
@@ -2456,6 +2458,10 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
+gud@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
+
 has-ansi@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
@@ -2536,6 +2542,10 @@ hmac-drbg@^1.0.0:
 hoist-non-react-statics@2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.0.tgz#d2ca2dfc19c5a91c5a6615ce8e564ef0347e2a40"
+
+hoist-non-react-statics@^2.5.5:
+  version "2.5.5"
+  resolved "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
 
 hosted-git-info@^2.1.4:
   version "2.7.1"
@@ -3473,9 +3483,9 @@ next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
-next@6.1.1-canary.0:
-  version "6.1.1-canary.0"
-  resolved "https://registry.yarnpkg.com/next/-/next-6.1.1-canary.0.tgz#6b7bf31882999320c9eaad54b2989259725030c7"
+next@6.1.1-canary.2:
+  version "6.1.1-canary.2"
+  resolved "https://registry.npmjs.org/next/-/next-6.1.1-canary.2.tgz#37b421d7da5523762836a8b6eba3c91d5465eaac"
   dependencies:
     "@babel/core" "7.0.0-beta.42"
     "@babel/plugin-proposal-class-properties" "7.0.0-beta.42"
@@ -4132,9 +4142,9 @@ react-lifecycles-compat@3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
-react@16.3.2:
-  version "16.3.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.3.2.tgz#fdc8420398533a1e58872f59091b272ce2f91ea9"
+react@16.4.1:
+  version "16.4.1"
+  resolved "https://registry.npmjs.org/react/-/react-16.4.1.tgz#de51ba5764b5dbcd1f9079037b862bd26b82fe32"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"

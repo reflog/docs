@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "5.15.3",
+  "version": "5.15.4",
   "private": true,
   "scripts": {
     "dev": "micro server.js",
@@ -27,18 +27,18 @@
     "markdown-in-js": "1.1.4",
     "micro": "9.3.1",
     "mitt": "1.1.2",
-    "next": "6.1.1-canary.0",
+    "next": "6.1.1-canary.2",
     "nprogress": "0.2.0",
     "prop-types": "15.5.8",
-    "react": "16.3.2",
+    "react": "16.4.1",
     "react-dom": "16.3.2",
     "remark-capitalize": "1.0.0",
     "scroll-into-view-if-needed": "1.1.0"
   },
   "devDependencies": {
-    "@mdx-js/loader": "0.11.0",
-    "@mdx-js/mdx": "0.10.1",
-    "@mdx-js/tag": "0.11.0",
+    "@mdx-js/loader": "0.15.0-0",
+    "@mdx-js/mdx": "0.15.0-0",
+    "@mdx-js/tag": "0.14.1",
     "@zeit/next-mdx": "1.1.0",
     "babel-eslint": "8.2.3",
     "eslint": "4.2.0",

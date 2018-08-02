@@ -14,6 +14,7 @@ export const meta = {
   editUrl: 'pages/docs/features/env-and-secrets.md'
 }
 
+> This document is based around environment variables and secrets for use in run-time for your app. For build-time env and secrets, read "[Build-Time Env and Secrets](/docs/features/build-env-and-secrets)"
 
 If there's information or certain behavior of your project that needs to differ depending on if it's running locally or on now, environment variables are the perfect solution.
 
